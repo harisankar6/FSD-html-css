@@ -1,80 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1: Block and Inline Elements</title>
-</head>
-<body>
-    <table border="2">
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+      table {
+        border: 2px solid black;
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
         <tr>
-            <th>Block LevelElements</th>
-            <th>Description<br>(A block-level element always takes up the full width available)</th>
+          <th>Sl.No</th>
+          <th>Block Level <br>Elements</th>
+          <th>
+            Description<br />(A block-level element always takes up the full
+            width available)
+          </th>
         </tr>
         <tr>
-            <td>div</td>
-            <td>Defines a division or a section in an HTML document</td>
+          <td>1</td>
+          <td>div</td>
+          <td>Defines a division or a section in an HTML document</td>
         </tr>
         <tr>
-            <td>h1-h6</td>
-            <td>Defines HTML headings (h1 is the largest, h6 is the smallest)</td>
+          <td>2</td>
+          <td>h1-h6</td>
+          <td>Defines HTML headings (h1 is the largest, h6 is the smallest)</td>
         </tr>
         <tr>
-            <td>p</td>
-            <td>Defines a paragraph</td>
+          <td>3</td>
+          <td>p</td>
+          <td>Defines a paragraph</td>
         </tr>
         <tr>
-            <td>form</td>
-            <td>Defines an HTML form for user input</td>
+          <td>4</td>
+          <td>form</td>
+          <td>Defines an HTML form for user input</td>
         </tr>
         <tr>
-            <td>header</td>
-            <td>Defines a header for a document or section</td>
+          <td>5</td>
+          <td>header</td>
+          <td>Defines a header for a document or section</td>
         </tr>
         <tr>
-            <td>footer</td>
-            <td>Defines a footer for a document or section</td>
+          <td>6</td>
+          <td>footer</td>
+          <td>Defines a footer for a document or section</td>
         </tr>
         <tr>
-            <td>section</td>
-            <td>Defines a section in a document</td>
+          <td>7</td>
+          <td>section</td>
+          <td>Defines a section in a document</td>
         </tr>
         <tr>
-            <td>article</td>
-            <td>Defines an article</td>
+          <td>8</td>
+          <td>article</td>
+          <td>Defines an article</td>
         </tr>
         <tr>
-            <td>nav</td>
-            <td>Defines navigation links</td>
+          <td>9</td>
+          <td>nav</td>
+          <td>Defines navigation links</td>
         </tr>
         <tr>
-            <td>aside</td>
-            <td>Defines content aside from the page content</td>
+          <td>10</td>
+          <td>aside</td>
+          <td>Defines content aside from the page content</td>
         </tr>
         <tr>
-            <td>dd</td>
-            <td>Defines a description in a description list</td>
+          <td>11</td>
+          <td>dd</td>
+          <td>Defines a description in a description list</td>
         </tr>
         <tr>
-            <td>dt</td>
-            <td>Defines a term in a description list</td>
+          <td>12</td>
+          <td>dt</td>
+          <td>Defines a term in a description list</td>
         </tr>
         <tr>
-            <td>li</td>
-            <td>Defines a list item</td>
+          <td>13</td>
+          <td>li</td>
+          <td>Defines a list item</td>
         </tr>
         <tr>
-            <td>ol</td>
-            <td>Defines an ordered list</td>
+          <td>14</td>
+          <td>ol</td>
+          <td>Defines an ordered list</td>
         </tr>
         <tr>
-            <td>ul</td>
-            <td>Defines an unordered list</td>
+          <td>15</td>
+          <td>ul</td>
+          <td>Defines an unordered list</td>
         </tr>
         <tr>
-            <td>table</td>
-            <td>Defines a table</td>
+          <td>16</td>
+          <td>table</td>
+          <td>Defines a table</td>
         </tr>
-    </table>
-</body>
+      </table>
+      <br /><br />
+      <table>
+        <tr>
+          <th>Sl.No</th>
+          <th>Inline Level <br>Elements</th>
+          <th>
+            Description<br />(An inline element does not start on a new line and
+            only takes up <br>as much width as necessary)
+          </th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>span</td>
+          <td>Defines a section in a document (used for styling purposes)</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>a</td>
+          <td>Defines a hyperlink</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>img</td>
+          <td>Defines an image</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>b</td>
+          <td>Defines bold text</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>i</td>
+          <td>Defines italic text</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>u</td>
+          <td>Defines underlined text</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>strong</td>
+          <td>Defines important text (usually displayed in bold)</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>em</td>
+          <td>Defines emphasized text (usually displayed in italics)</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>button</td>
+          <td>Defines a clickable button</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>input</td>
+          <td>Defines an input field where the user can enter data</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>label</td>
+          <td>Defines a label for an input element</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>select</td>
+          <td>Defines a drop-down list</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>textarea</td>
+          <td>Defines a multi-line text input control</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>small</td>
+          <td>Defines smaller text</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>sub</td>
+          <td>Defines subscripted text</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>sup</td>
+          <td>Defines superscripted text</td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
