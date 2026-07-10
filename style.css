@@ -149,7 +149,7 @@ header {
 /* css media queries */
 .css-media-query {
     background-color: rgb(232, 11, 11);
-    font-color: white;
+    color: white;
     width: 100%;
     height: 200px;
 }
@@ -163,6 +163,7 @@ header {
 @media (max-width: 480px) {
     .css-media-query {
         background-color: rgb(227, 230, 5);
+        color: black;
     }
 }
 
