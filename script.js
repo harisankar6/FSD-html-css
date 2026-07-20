@@ -81,7 +81,13 @@
 // console.log(a);
 // let - reassigning, redeclaration not possible
 
-const a = 10
-console.log(a);
-a = 20
-console.log(a);
+// const a = 10
+// console.log(a);
+// const - reassigning and redeclaration are not possible
+//         and have to initialise while declaring
+
+// primitive datatypes
+// value types - Number, string, boolean 
+
+// non primitive datatypes - Reference types
+// address types - obect or array 
